@@ -1,0 +1,6 @@
+*
+!.gitignore
+!ch*/
+!*.tex
+!*.pdf
+!*.S
