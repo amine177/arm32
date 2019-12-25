@@ -1,0 +1,10 @@
+\documentclass{article}
+\begin{document}
+\noindent Three different ways to create a null terminated string:
+\begin{itemize}
+\Item .string "A null terminated string!"
+\item .asciz "A null terminated string!"
+\item .ascii "A null terminated string!", 0
+\item .byte 0x41, .... , 0x0
+\end{itemize}
+\end{document}
