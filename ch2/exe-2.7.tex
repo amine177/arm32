@@ -1,0 +1,17 @@
+\documentclass{article}
+\begin{document}
+\noindent C to assembly:\\
+\textbf{static int foo[3];}\\
+foo:\\
+.word  0x0 \\
+.word  0x0 \\
+.word  0x0 \\
+\vskip 1cm
+\noindent\textbf{static char bar[4];}\\
+bar:\\
+.byte: 0x0, 0x0, 0x0, 0x0\\
+\vskip 1cm
+\noindent\textbf{char barfoo;}\\
+barfoo:\\
+.byte: 0x0\\
+\end{document}
