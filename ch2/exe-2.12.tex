@@ -1,0 +1,6 @@
+\documentclass{article}
+\begin{document}
+\noindent Why are .ascii and .asciiz always followed by .algin, while .word not?\\
+Because .word are  4 bytes, therfore anything that follow is usually aligned if the .word
+address is well aligned. While strings or sequences of chars are arbitrary in length.
+\end{document}
